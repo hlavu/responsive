@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid System</title>
+    <!-- Grid library -->
+    <link rel="stylesheet" href="./grid-lib.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="grid container">
+      <div class="row">
+        <div class="col l-3 m-3 c-0">
+          <ul class="menu">
+            <li class="active">All</li>
+            <li>Rose</li>
+            <li>Tulip</li>
+            <li>Lavender</li>
+          </ul>
+        </div>
+        <div class="col l-9 m-9 c-12">
+          <div class="row no-gutters">
+            <div class="img-card col l-4 m-6 c-12">
+              <img src="./img/rose.jpg" alt="rose" />
+            </div>
+            <div class="img-card col l-4 m-6 c-12">
+              <img src="./img/lavender.jpg" alt="lavender" />
+            </div>
+            <div class="img-card col l-4 m-6 c-12">
+              <img src="./img/tulip.jpg" alt="tulip" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
